@@ -1,4 +1,4 @@
-## ## 1️⃣ Linear Regression on Housing Prices
+ ## 1️⃣ Linear Regression on Housing Prices
 
 **📄 File:** `LIN_reg_HP.ipynb`
 
