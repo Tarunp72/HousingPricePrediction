@@ -1,6 +1,4 @@
- ## 1️⃣ Linear Regression on Housing Prices
-
-**📄 File:** `LIN_reg_HP.ipynb`
+ ##  Linear Regression on Housing Prices
 
 ### **Objective**
 Predict housing prices using a Linear Regression model.
