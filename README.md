@@ -1,40 +1,25 @@
-1️⃣ Linear Regression on Housing Prices
-📄 File: LIN_reg_HP.ipynb
+## ## 1️⃣ Linear Regression on Housing Prices
 
-🧠 Objective
-Predict house prices based on input features using Linear Regression.
+**📄 File:** `LIN_reg_HP.ipynb`
 
-📊 Dataset
-File: Housing_price.csv
+### **Objective**
+Predict housing prices using a Linear Regression model.
 
-Features may include:
+### **Dataset**
+- `Housing_price.csv`
+- Features may include:
+  - `Area`
+  - `Bedrooms`
+  - `Bathrooms`
+  - `Furnishing Status`
 
-Area
-
-Bedrooms
-
-Bathrooms
-
-Furnishing Status
-
-Location (if available)
-
-⚙️ Workflow
-Load and clean the data
-
-Encode categorical columns using Ordinal Encoding
-
-Split into training and testing sets
-
-Train a Linear Regression model
-
-Evaluate performance using:
-
-✅ Mean Absolute Error (MAE)
-
-✅ Mean Squared Error (MSE)
-
-✅ Root Mean Squared Error (RMSE)
-
-✅ R² Score
-
+### **Workflow**
+- Load and clean the dataset
+- Apply **Ordinal Encoding** to categorical variables
+- Split the dataset into training and testing sets
+- Train a **Linear Regression** model
+- Evaluate performance using:
+  - MAE (Mean Absolute Error)
+  - MSE (Mean Squared Error)
+  - RMSE (Root Mean Squared Error)
+  - R² Score
