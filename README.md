@@ -1,41 +1,40 @@
-# HousingPricePrediction
+1️⃣ Linear Regression on Housing Prices
+📄 File: LIN_reg_HP.ipynb
 
-🧠 Project Overview
-This project implements a Linear Regression model to predict housing prices based on features like furnishing status, location, and more. It's ideal for understanding how continuous numerical prediction works in ML.
+🧠 Objective
+Predict house prices based on input features using Linear Regression.
 
-📁 Dataset
+📊 Dataset
 File: Housing_price.csv
 
-Contains features such as Area, Bedrooms, Bathrooms, Furnishing Status, etc.
+Features may include:
 
-⚙️ Technologies Used
-Python
+Area
 
-Pandas, NumPy
+Bedrooms
 
-Scikit-learn
+Bathrooms
 
-Matplotlib / Seaborn (for visualization)
+Furnishing Status
 
-✅ Model Workflow
-Load and clean the dataset
+Location (if available)
 
-Encode categorical variables using Ordinal Encoding
+⚙️ Workflow
+Load and clean the data
 
-Train/Test split
+Encode categorical columns using Ordinal Encoding
+
+Split into training and testing sets
 
 Train a Linear Regression model
 
-Evaluate using:
+Evaluate performance using:
 
-MAE (Mean Absolute Error)
+✅ Mean Absolute Error (MAE)
 
-MSE (Mean Squared Error)
+✅ Mean Squared Error (MSE)
 
-RMSE (Root Mean Squared Error)
+✅ Root Mean Squared Error (RMSE)
 
-R² Score
-
-📊 Evaluation Metrics
-Used to measure model accuracy and performance on the test data.
+✅ R² Score
 
